@@ -1,0 +1,10 @@
+{
+  "name": "danbooru-tags",
+  "license": "AGPL-3.0",
+  "scripts": {
+    "start": "node index.mjs"
+  },
+  "dependencies": {
+    "yaml": "^2.3.4"
+  }
+}
