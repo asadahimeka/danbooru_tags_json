@@ -5,7 +5,7 @@
   ],
   "content": {
     "1boy": {
-      "name": "1 个男人",
+      "name": "1男",
       "image": "740863a9d439ed6e01bb7b33ee6cf19367ecc8d679afe8a6b993f9b4618e4d2b",
       "wikiURL": "https://danbooru.donmai.us/wiki_pages/1boy.html",
       "alias": [
@@ -13,7 +13,7 @@
       ]
     },
     "1girl": {
-      "name": "1 个女人",
+      "name": "1女",
       "image": "7494e763c0dea7a5f999d6e3251cbe5f5486fdc87aa6e99ac614f28441568914",
       "wikiURL": "https://danbooru.donmai.us/wiki_pages/1girl.html",
       "alias": [
@@ -21,7 +21,7 @@
       ]
     },
     "2boys": {
-      "name": "2 个男人",
+      "name": "2男",
       "image": "33518f8c7e222c94033c146e77f0b32a824f739595edf2995cec53b3532e4d18",
       "wikiURL": "https://danbooru.donmai.us/wiki_pages/2boys.html",
       "alias": [
@@ -29,7 +29,7 @@
       ]
     },
     "2girls": {
-      "name": "2 个女人",
+      "name": "2女",
       "image": "3abd0ae673a207bc99130ae0130558055144a7f489cd3f3978615efba9e1c81e",
       "wikiURL": "https://danbooru.donmai.us/wiki_pages/2girls.html",
       "alias": [

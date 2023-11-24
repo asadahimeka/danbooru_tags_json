@@ -9,6 +9,10 @@ async function main() {
     const json = YAML.parse(file)
     await fs.writeFile(`./json/${filename.replace('.yaml', '')}.json`, JSON.stringify(json, null, 2))
     for (const [key, val] of Object.entries(json.content)) {
+      if (typeof val == 'string') {
+        results[key] = val
+        continue
+      }
       results[key] = val.name
       if (Array.isArray(val.alias)) {
         for (const alias of val.alias) {
@@ -18,8 +22,8 @@ async function main() {
     }
   }
 
-  await fs.writeFile('./json/@tags_translate_cn.json', JSON.stringify(results, null, 2))
-  await fs.writeFile('./json/@tags_translate_cn.min.json', JSON.stringify(results))
+  await fs.writeFile('./json/_tags_translate_cn.json', JSON.stringify(results, null, 2))
+  await fs.writeFile('./json/_tags_translate_cn.min.json', JSON.stringify(results))
 }
 
 main()
